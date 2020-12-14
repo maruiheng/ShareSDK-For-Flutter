@@ -562,7 +562,7 @@ static NSString *const receiverStr = @"SSDKRestoreReceiver";
 #pragma mark - 场景还原 添加监听
 - (void)addObserver
 {
-    [ShareSDK setRestoreSceneDelegate:self];
+    //[ShareSDK setRestoreSceneDelegate:self];
 }
 
 #pragma mark - ISSERestoreSceneDelegate
